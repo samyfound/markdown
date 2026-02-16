@@ -96,8 +96,7 @@ no *Início* de cada item
 
 ###### <small>agora a parte empolgante hehe
 
-#### 🎨 Textos destacados
-
+#### 🎨 Textos destacados 
 
 | Código | resultado |
 | --- | --- |
@@ -130,6 +129,9 @@ Se você quer destacar uma linha inteira como se fosse um erro (vermelho) ou um 
 ! Texto em laranja (use o sinal de exclamação)
 
 ```
+| `$\color{red}{Texto}$`| $\color{red}{texto}$ |
+| `$\color{green}{Texto}$>` | $\color{green}{texto}$ |
+| `$\color{blue}{Texto}$` | $\color{Blue}{texto}$ |
 
 ---
 ### Imagens!
@@ -146,8 +148,3 @@ também como..
 ![img](https://ichef.bbci.co.uk/images/ic/512xn/p09j7x4c.jpg.webp)
 
 
-## ⚠️ Observação de Compatibilidade
-
-Alguns exemplos com HTML e estilos CSS (cores, fundo, gradientes)
-funcionam melhor no preview do VS Code e podem não renderizar
-da mesma forma no GitHub.
