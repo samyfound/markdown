@@ -105,8 +105,31 @@ no *Início* de cada item
 | `<span style="color: #00FF7F">Texto</span>` | <span style="color: #00FF7F">Texto em verde</span> |
 | `<span style="background-color: #b8731f; color: #fff">Texto</span>` | <span style="background-color: #b8731f; color: #fff">Texto marcado</span> |
 
+// correções de seu love S2 :)
+### Opção 1: Usando LaTeX (Cores reais no texto)
 
-> Podemos usar estes comando para colorir ou destacar textos a partir do markdown e HTML
+Esta e uma forma de colorir palavras específicas dentro de uma frase ou tabela no GitHub
+
+| Estilo | Código para copiar | Resultado (Como aparece no GitHub) |
+| --- | --- | --- |
+| **Vermelho** | `$\color{red}{\text{Texto em vermelho}}$` | $\color{red}{\text{Texto em vermelho}}$ |
+| **Verde** | `$\color{#00FF7F}{\text{Texto em verde}}$` | $\color{#00FF7F}{\text{Texto em verde}}$ |
+| **Laranja** | `$\color{orange}{\text{Texto laranja}}$` | $\color{orange}{\text{Texto laranja}}$ |
+| **Azul** | `$\color{blue}{\text{Texto azul}}$` | $\color{blue}{\text{Texto azul}}$ |
+
+---
+
+### Opção 2: Usando blocos de Código `diff`
+
+Se você quer destacar uma linha inteira como se fosse um erro (vermelho) ou um sucesso (verde), use o marcador `diff`. É muito comum em documentações.
+
+```markdown
+```diff
+- Texto em vermelho (use o sinal de menos)
++ Texto em verde (use o sinal de mais)
+! Texto em laranja (use o sinal de exclamação)
+
+```
 
 ---
 ### Imagens!
