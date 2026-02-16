@@ -96,17 +96,13 @@ no *Início* de cada item
 
 ###### <small>agora a parte empolgante hehe
 
-#### 🎨 Textos destacados
-
+#### 🎨 Textos destacados 
 
 | Código | resultado |
 | --- | --- |
-| `<span style= "color: red">Texto</span>`| <span style="color: red"> Texto em vermelho</span> |
-| `<span style="color: #00FF7F">Texto</span>` | <span style="color: #00FF7F">Texto em verde</span> |
-| `<span style="background-color: #b8731f; color: #fff">Texto</span>` | <span style="background-color: #b8731f; color: #fff">Texto marcado</span> |
-
-
-> Podemos usar estes comando para colorir ou destacar textos a partir do markdown e HTML
+| `$\color{red}{Texto}$`| $\color{red}{texto}$ |
+| `$\color{green}{Texto}$>` | $\color{green}{texto}$ |
+| `$\color{blue}{Texto}$` | $\color{Blue}{texto}$ |
 
 ---
 ### Imagens!
@@ -123,8 +119,3 @@ também como..
 ![img](https://ichef.bbci.co.uk/images/ic/512xn/p09j7x4c.jpg.webp)
 
 
-## ⚠️ Observação de Compatibilidade
-
-Alguns exemplos com HTML e estilos CSS (cores, fundo, gradientes)
-funcionam melhor no preview do VS Code e podem não renderizar
-da mesma forma no GitHub.
